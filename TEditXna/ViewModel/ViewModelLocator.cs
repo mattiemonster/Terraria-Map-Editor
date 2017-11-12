@@ -48,6 +48,12 @@ namespace TEditXna.ViewModel
             wvm.Plugins.Add(new UnlockAllChestsPlugin(wvm));
             wvm.Plugins.Add(new FindChestWithPlugin(wvm));
             wvm.Plugins.Add(new FindPlanteraBulbPlugin(wvm));
+            wvm.Plugins.Add(new RemoveAllWaterPlugin(wvm));
+            wvm.Plugins.Add(new RemoveAllHoneyPlugin(wvm));
+            wvm.Plugins.Add(new RemoveAllLavaPlugin(wvm));
+            wvm.Plugins.Add(new RemoveAllCorruption(wvm));
+            wvm.Plugins.Add(new RemoveAllAltars(wvm));
+            wvm.Plugins.Add(new RemoveAllPots(wvm));
             return wvm;
         }
     }

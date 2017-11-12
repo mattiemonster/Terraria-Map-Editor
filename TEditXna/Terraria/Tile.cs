@@ -47,7 +47,8 @@ namespace TEditXNA.Terraria
         Dummy = 378,
         ItemFrame = 395,
         LogicSensor = 423,
-        Chest2 = 467
+        Chest2 = 467,
+        Ebonstone = 25
     }
 
     [Serializable]

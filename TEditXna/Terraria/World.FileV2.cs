@@ -533,7 +533,7 @@ namespace TEditXNA.Terraria
             bw.Write(world.PartyManual);
             bw.Write(world.PartyGenuine);
             bw.Write(world.PartyCooldown);
-            bw.Write(world.PartyingNPCs.Count);
+            bw.Write(world.CorruptionBlocks.Count);
             foreach (int partier in world.PartyingNPCs)
             {
                 bw.Write(partier);
